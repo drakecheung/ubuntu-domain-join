@@ -3,8 +3,8 @@
   become: yes
   roles:
     - { role: mrlesmithjr.domain-join, 
-        ad_domain: appcara.net
-        ad_domain_netbios: appcara.net
-        ad_ou: Computers
-        ad_password: Qwe123!
+        ad_domain: appcara.net,
+        ad_domain_netbios: appcara.net,
+        ad_ou: Computers,
+        ad_password: Qwe123!,
         ad_user: drake.admin }
